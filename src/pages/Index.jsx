@@ -37,8 +37,14 @@ const Index = () => {
             <FormLabel>Password</FormLabel>
             <Input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
           </FormControl>
-          <Button leftIcon={<FaSignInAlt />} colorScheme="blue" onClick={handleLogin}>
+          <Button leftIcon={<FaSignInAlt />} colorScheme="blue" onClick={handleLogin} mb={2}>
             Sign In
+          </Button>
+          <Button as="a" href="/reset-password" colorScheme="teal" size="sm">
+            Forgot password?
+          </Button>
+          <Button as="a" href="/register" colorScheme="green" size="sm">
+            Register Sign In
           </Button>
         </VStack>
       </Box>
