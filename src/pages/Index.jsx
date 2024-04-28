@@ -24,7 +24,7 @@ const Index = () => {
         <VStack spacing={4}>
           <Image src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx3b3JsZCUyMGdsb2JlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MTQzMDcyMzZ8MA&ixlib=rb-4.0.3&q=80&w=1080" borderRadius="full" boxSize="150px" alt="Worldcoin Concept" />
           <Heading as="h1" size="xl" textAlign="center">
-            Welcome to Worldcoin Mimic
+            Welcome to Worldcoin
           </Heading>
           <Text as="p" fontSize="md" color="gray.600">
             Sign in to access your account
