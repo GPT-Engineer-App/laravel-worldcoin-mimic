@@ -1,10 +1,10 @@
-import React from 'react';
-import { Box, Text } from '@chakra-ui/react';
+import React from "react";
+import { Box, Text } from "@chakra-ui/react";
 
 function HomePage() {
   return (
     <Box>
-      <Text fontSize="xl">Welcome to the HomePage!</Text>
+      <Text fontSize="xl">Welcome to our simple homepage!</Text>
     </Box>
   );
 }
